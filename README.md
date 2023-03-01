@@ -200,7 +200,7 @@ The main `Evaluator` class will accept a number of formats:
 
 ### Prodigy spans
 
-```
+```python
 true = [
     [{"label": "PER", "start": 2, "end": 4}],
     [{"label": "LOC", "start": 1, "end": 2},
@@ -224,7 +224,7 @@ results, results_per_tag = evaluator.evaluate()
 print(results)
 ```
 
-```
+```python
 {
     'ent_type':{
         'correct':3,
@@ -273,11 +273,11 @@ print(results)
 }
 ```
 
-```
+```python
 print(results_by_tag)
 ```
 
-```
+```python
 {
     'LOC':{
         'ent_type':{
